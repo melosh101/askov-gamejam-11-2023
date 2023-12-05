@@ -1,0 +1,526 @@
+Index: Assets/Graphy - Ultimate Stats Monitor/Graphy_CustomizationScene.unitypackage.meta
+===================================================================
+diff --git a/Assets/Graphy - Ultimate Stats Monitor/Graphy_CustomizationScene.unitypackage.meta b/Assets/Graphy - Ultimate Stats Monitor/Graphy_CustomizationScene.unitypackage.meta
+deleted file mode 100644
+--- a/Assets/Graphy - Ultimate Stats Monitor/Graphy_CustomizationScene.unitypackage.meta	(revision 25711ae1195b658773167e4b662049e62d12c3a7)
++++ /dev/null	(revision 25711ae1195b658773167e4b662049e62d12c3a7)
+@@ -1,7 +0,0 @@
+-fileFormatVersion: 2
+-guid: 9df6cd2f9439dd04fb0d7a5aeb12e189
+-DefaultImporter:
+-  externalObjects: {}
+-  userData: 
+-  assetBundleName: 
+-  assetBundleVariant: 
+Index: Assets/milas/SoundEvent.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/milas/SoundEvent.cs.meta b/Assets/milas/SoundEvent.cs.meta
+new file mode 100644
+--- /dev/null	(date 1700640939576)
++++ b/Assets/milas/SoundEvent.cs.meta	(date 1700640939576)
+@@ -0,0 +1,11 @@
++fileFormatVersion: 2
++guid: e5ab361e7cb4bc04e9d105ef058afa0d
++MonoImporter:
++  externalObjects: {}
++  serializedVersion: 2
++  defaultReferences: []
++  executionOrder: 0
++  icon: {instanceID: 0}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Assets/HDRP/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\r\n%TAG !u! tag:unity3d.com,2011:\r\n--- !u!114 &11400000\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 0\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 0\r\n  m_Script: {fileID: 11500000, guid: 0cf1dab834d4ec34195b920ea7bbf9ec, type: 3}\r\n  m_Name: HDRenderPipelineAsset\r\n  m_EditorClassIdentifier: \r\n  m_RenderPipelineSettings:\r\n    supportShadowMask: 1\r\n    supportSSR: 0\r\n    supportSSRTransparent: 0\r\n    supportSSAO: 1\r\n    supportSSGI: 0\r\n    supportSubsurfaceScattering: 1\r\n    sssSampleBudget:\r\n      m_Values: 140000002800000050000000\r\n      m_SchemaId:\r\n        m_Id: With3Levels\r\n    supportVolumetrics: 1\r\n    supportVolumetricClouds: 0\r\n    supportLightLayers: 0\r\n    supportDistortion: 1\r\n    supportTransparentBackface: 1\r\n    supportTransparentDepthPrepass: 1\r\n    supportTransparentDepthPostpass: 1\r\n    colorBufferFormat: 74\r\n    supportCustomPass: 1\r\n    customBufferFormat: 12\r\n    supportedLitShaderMode: 2\r\n    planarReflectionResolution:\r\n      m_Values: 000100000004000000080000\r\n      m_SchemaId:\r\n        m_Id: With3Levels\r\n    supportDecals: 1\r\n    supportDecalLayers: 0\r\n    supportSurfaceGradient: 0\r\n    decalNormalBufferHP: 0\r\n    msaaSampleCount: 1\r\n    supportMotionVectors: 1\r\n    supportRuntimeAOVAPI: 0\r\n    supportDitheringCrossFade: 1\r\n    supportTerrainHole: 0\r\n    supportProbeVolume: 0\r\n    probeVolumeMemoryBudget: 1024\r\n    probeVolumeSHBands: 1\r\n    supportRayTracing: 0\r\n    supportedRayTracingMode: 3\r\n    lightLoopSettings:\r\n      cookieAtlasSize: 2048\r\n      cookieFormat: 74\r\n      cookieAtlasLastValidMip: 0\r\n      cookieTexArraySize: 1\r\n      planarReflectionAtlasSize: 1024\r\n      reflectionProbeCacheSize: 64\r\n      reflectionCubemapSize: 256\r\n      reflectionCacheCompressed: 0\r\n      reflectionProbeFormat: 74\r\n      skyReflectionSize: 256\r\n      skyLightingOverrideLayerMask:\r\n        serializedVersion: 2\r\n        m_Bits: 0\r\n      supportFabricConvolution: 0\r\n      maxDirectionalLightsOnScreen: 16\r\n      maxPunctualLightsOnScreen: 512\r\n      maxAreaLightsOnScreen: 64\r\n      maxEnvLightsOnScreen: 64\r\n      maxDecalsOnScreen: 512\r\n      maxPlanarReflectionOnScreen: 16\r\n      maxLightsPerClusterCell: 8\r\n      maxLocalVolumetricFogSize: 32\r\n      maxLocalVolumetricFogOnScreen: 64\r\n    hdShadowInitParams:\r\n      maxShadowRequests: 128\r\n      directionalShadowsDepthBits: 32\r\n      shadowFilteringQuality: 1\r\n      punctualLightShadowAtlas:\r\n        shadowAtlasResolution: 4096\r\n        shadowAtlasDepthBits: 32\r\n        useDynamicViewportRescale: 1\r\n      areaLightShadowAtlas:\r\n        shadowAtlasResolution: 4096\r\n        shadowAtlasDepthBits: 32\r\n        useDynamicViewportRescale: 1\r\n      cachedPunctualLightShadowAtlas: 2048\r\n      cachedAreaLightShadowAtlas: 1024\r\n      shadowResolutionDirectional:\r\n        m_Values: 00010000000200000004000000080000\r\n        m_SchemaId:\r\n          m_Id: With4Levels\r\n      shadowResolutionPunctual:\r\n        m_Values: 00010000000200000004000000080000\r\n        m_SchemaId:\r\n          m_Id: With4Levels\r\n      shadowResolutionArea:\r\n        m_Values: 00010000000200000004000000080000\r\n        m_SchemaId:\r\n          m_Id: With4Levels\r\n      maxDirectionalShadowMapResolution: 2048\r\n      maxPunctualShadowMapResolution: 2048\r\n      maxAreaShadowMapResolution: 2048\r\n      supportScreenSpaceShadows: 0\r\n      maxScreenSpaceShadowSlots: 4\r\n      screenSpaceShadowBufferFormat: 48\r\n    decalSettings:\r\n      drawDistance: 1000\r\n      atlasWidth: 4096\r\n      atlasHeight: 4096\r\n      perChannelMask: 0\r\n    postProcessSettings:\r\n      m_LutSize: 32\r\n      lutFormat: 48\r\n      bufferFormat: 74\r\n    dynamicResolutionSettings:\r\n      enabled: 0\r\n      useMipBias: 0\r\n      enableDLSS: 0\r\n      DLSSPerfQualitySetting: 0\r\n      DLSSUseOptimalSettings: 0\r\n      DLSSSharpness: 0\r\n      maxPercentage: 100\r\n      minPercentage: 100\r\n      dynResType: 1\r\n      upsampleFilter: 1\r\n      forceResolution: 0\r\n      forcedPercentage: 100\r\n      lowResTransparencyMinimumThreshold: 0\r\n      rayTracingHalfResThreshold: 50\r\n    lowresTransparentSettings:\r\n      enabled: 1\r\n      checkerboardDepthBuffer: 1\r\n      upsampleType: 1\r\n    xrSettings:\r\n      singlePass: 1\r\n      occlusionMesh: 1\r\n      cameraJitter: 0\r\n    postProcessQualitySettings:\r\n      NearBlurSampleCount: 030000000500000008000000\r\n      NearBlurMaxRadius:\r\n      - 2\r\n      - 4\r\n      - 7\r\n      FarBlurSampleCount: 04000000070000000e000000\r\n      FarBlurMaxRadius:\r\n      - 5\r\n      - 8\r\n      - 13\r\n      DoFResolution: 040000000200000001000000\r\n      DoFHighQualityFiltering: 000101\r\n      DoFPhysicallyBased: 000000\r\n      MotionBlurSampleCount: 04000000080000000c000000\r\n      BloomRes: 040000000200000002000000\r\n      BloomHighQualityFiltering: 000101\r\n      BloomHighQualityPrefiltering: 000001\r\n      ChromaticAberrationMaxSamples: 03000000060000000c000000\r\n    lightSettings:\r\n      useContactShadow:\r\n        m_Values: 000001\r\n        m_SchemaId:\r\n          m_Id: With3Levels\r\n    maximumLODLevel:\r\n      m_Values: 000000000000000000000000\r\n      m_SchemaId:\r\n        m_Id: With3Levels\r\n    lodBias:\r\n      m_Values:\r\n      - 1\r\n      - 1\r\n      - 1\r\n      m_SchemaId:\r\n        m_Id: With3Levels\r\n    lightingQualitySettings:\r\n      AOStepCount: 040000000600000010000000\r\n      AOFullRes: 000001\r\n      AOMaximumRadiusPixels: 200000002800000050000000\r\n      AOBilateralUpsample: 000101\r\n      AODirectionCount: 010000000200000004000000\r\n      ContactShadowSampleCount: 060000000a00000010000000\r\n      SSRMaxRaySteps: 100000002000000040000000\r\n      SSGIRaySteps: 200000004000000080000000\r\n      SSGIDenoise: 010101\r\n      SSGIHalfResDenoise: 010000\r\n      SSGIDenoiserRadius:\r\n      - 0.75\r\n      - 0.5\r\n      - 0.5\r\n      SSGISecondDenoise: 010101\r\n      RTAORayLength:\r\n      - 0.5\r\n      - 3\r\n      - 20\r\n      RTAOSampleCount: 010000000200000008000000\r\n      RTAODenoise: 010101\r\n      RTAODenoiserRadius:\r\n      - 0.25\r\n      - 0.5\r\n      - 0.65\r\n      RTGIRayLength:\r\n      - 50\r\n      - 50\r\n      - 50\r\n      RTGIFullResolution: 000001\r\n      RTGIClampValue:\r\n      - 0.5\r\n      - 0.8\r\n      - 1.5\r\n      RTGIRaySteps: 200000003000000040000000\r\n      RTGIDenoise: 010101\r\n      RTGIHalfResDenoise: 010000\r\n      RTGIDenoiserRadius:\r\n      - 0.75\r\n      - 0.5\r\n      - 0.25\r\n      RTGISecondDenoise: 010101\r\n      RTRMinSmoothness:\r\n      - 0.6\r\n      - 0.4\r\n      - 0\r\n      RTRSmoothnessFadeStart:\r\n      - 0.7\r\n      - 0.5\r\n      - 0\r\n      RTRRayLength:\r\n      - 50\r\n      - 50\r\n      - 50\r\n      RTRClampValue:\r\n      - 0.8\r\n      - 1\r\n      - 1.2\r\n      RTRFullResolution: 000001\r\n      RTRRayMaxIterations: 200000003000000040000000\r\n      RTRDenoise: 010101\r\n      RTRDenoiserRadius: 080000000c00000010000000\r\n      RTRSmoothDenoising: 010000\r\n      Fog_ControlMode: 000000000000000000000000\r\n      Fog_Budget:\r\n      - 0.166\r\n      - 0.33\r\n      - 0.666\r\n      Fog_DepthRatio:\r\n      - 0.666\r\n      - 0.666\r\n      - 0.5\r\n    m_ObsoleteLightLayerName0: \r\n    m_ObsoleteLightLayerName1: \r\n    m_ObsoleteLightLayerName2: \r\n    m_ObsoleteLightLayerName3: \r\n    m_ObsoleteLightLayerName4: \r\n    m_ObsoleteLightLayerName5: \r\n    m_ObsoleteLightLayerName6: \r\n    m_ObsoleteLightLayerName7: \r\n    m_ObsoleteDecalLayerName0: \r\n    m_ObsoleteDecalLayerName1: \r\n    m_ObsoleteDecalLayerName2: \r\n    m_ObsoleteDecalLayerName3: \r\n    m_ObsoleteDecalLayerName4: \r\n    m_ObsoleteDecalLayerName5: \r\n    m_ObsoleteDecalLayerName6: \r\n    m_ObsoleteDecalLayerName7: \r\n    m_ObsoleteSupportRuntimeDebugDisplay: 0\r\n  allowShaderVariantStripping: 1\r\n  enableSRPBatcher: 1\r\n  availableMaterialQualityLevels: -1\r\n  m_DefaultMaterialQualityLevel: 4\r\n  diffusionProfileSettings: {fileID: 0}\r\n  virtualTexturingSettings:\r\n    streamingCpuCacheSizeInMegaBytes: 256\r\n    streamingGpuCacheSettings:\r\n    - format: 0\r\n      sizeInMegaBytes: 128\r\n  m_UseRenderGraph: 1\r\n  m_Version: 21\r\n  m_ObsoleteFrameSettings:\r\n    overrides: 0\r\n    enableShadow: 0\r\n    enableContactShadows: 0\r\n    enableShadowMask: 0\r\n    enableSSR: 0\r\n    enableSSAO: 0\r\n    enableSubsurfaceScattering: 0\r\n    enableTransmission: 0\r\n    enableAtmosphericScattering: 0\r\n    enableVolumetrics: 0\r\n    enableReprojectionForVolumetrics: 0\r\n    enableLightLayers: 0\r\n    enableExposureControl: 1\r\n    diffuseGlobalDimmer: 0\r\n    specularGlobalDimmer: 0\r\n    shaderLitMode: 0\r\n    enableDepthPrepassWithDeferredRendering: 0\r\n    enableTransparentPrepass: 0\r\n    enableMotionVectors: 0\r\n    enableObjectMotionVectors: 0\r\n    enableDecals: 0\r\n    enableRoughRefraction: 0\r\n    enableTransparentPostpass: 0\r\n    enableDistortion: 0\r\n    enablePostprocess: 0\r\n    enableOpaqueObjects: 0\r\n    enableTransparentObjects: 0\r\n    enableRealtimePlanarReflection: 0\r\n    enableMSAA: 0\r\n    enableAsyncCompute: 0\r\n    runLightListAsync: 0\r\n    runSSRAsync: 0\r\n    runSSAOAsync: 0\r\n    runContactShadowsAsync: 0\r\n    runVolumeVoxelizationAsync: 0\r\n    lightLoopSettings:\r\n      overrides: 0\r\n      enableDeferredTileAndCluster: 0\r\n      enableComputeLightEvaluation: 0\r\n      enableComputeLightVariants: 0\r\n      enableComputeMaterialVariants: 0\r\n      enableFptlForForwardOpaque: 0\r\n      enableBigTilePrepass: 0\r\n      isFptlEnabled: 0\r\n  m_ObsoleteBakedOrCustomReflectionFrameSettings:\r\n    overrides: 0\r\n    enableShadow: 0\r\n    enableContactShadows: 0\r\n    enableShadowMask: 0\r\n    enableSSR: 0\r\n    enableSSAO: 0\r\n    enableSubsurfaceScattering: 0\r\n    enableTransmission: 0\r\n    enableAtmosphericScattering: 0\r\n    enableVolumetrics: 0\r\n    enableReprojectionForVolumetrics: 0\r\n    enableLightLayers: 0\r\n    enableExposureControl: 1\r\n    diffuseGlobalDimmer: 0\r\n    specularGlobalDimmer: 0\r\n    shaderLitMode: 0\r\n    enableDepthPrepassWithDeferredRendering: 0\r\n    enableTransparentPrepass: 0\r\n    enableMotionVectors: 0\r\n    enableObjectMotionVectors: 0\r\n    enableDecals: 0\r\n    enableRoughRefraction: 0\r\n    enableTransparentPostpass: 0\r\n    enableDistortion: 0\r\n    enablePostprocess: 0\r\n    enableOpaqueObjects: 0\r\n    enableTransparentObjects: 0\r\n    enableRealtimePlanarReflection: 0\r\n    enableMSAA: 0\r\n    enableAsyncCompute: 0\r\n    runLightListAsync: 0\r\n    runSSRAsync: 0\r\n    runSSAOAsync: 0\r\n    runContactShadowsAsync: 0\r\n    runVolumeVoxelizationAsync: 0\r\n    lightLoopSettings:\r\n      overrides: 0\r\n      enableDeferredTileAndCluster: 0\r\n      enableComputeLightEvaluation: 0\r\n      enableComputeLightVariants: 0\r\n      enableComputeMaterialVariants: 0\r\n      enableFptlForForwardOpaque: 0\r\n      enableBigTilePrepass: 0\r\n      isFptlEnabled: 0\r\n  m_ObsoleteRealtimeReflectionFrameSettings:\r\n    overrides: 0\r\n    enableShadow: 0\r\n    enableContactShadows: 0\r\n    enableShadowMask: 0\r\n    enableSSR: 0\r\n    enableSSAO: 0\r\n    enableSubsurfaceScattering: 0\r\n    enableTransmission: 0\r\n    enableAtmosphericScattering: 0\r\n    enableVolumetrics: 0\r\n    enableReprojectionForVolumetrics: 0\r\n    enableLightLayers: 0\r\n    enableExposureControl: 1\r\n    diffuseGlobalDimmer: 0\r\n    specularGlobalDimmer: 0\r\n    shaderLitMode: 0\r\n    enableDepthPrepassWithDeferredRendering: 0\r\n    enableTransparentPrepass: 0\r\n    enableMotionVectors: 0\r\n    enableObjectMotionVectors: 0\r\n    enableDecals: 0\r\n    enableRoughRefraction: 0\r\n    enableTransparentPostpass: 0\r\n    enableDistortion: 0\r\n    enablePostprocess: 0\r\n    enableOpaqueObjects: 0\r\n    enableTransparentObjects: 0\r\n    enableRealtimePlanarReflection: 0\r\n    enableMSAA: 0\r\n    enableAsyncCompute: 0\r\n    runLightListAsync: 0\r\n    runSSRAsync: 0\r\n    runSSAOAsync: 0\r\n    runContactShadowsAsync: 0\r\n    runVolumeVoxelizationAsync: 0\r\n    lightLoopSettings:\r\n      overrides: 0\r\n      enableDeferredTileAndCluster: 0\r\n      enableComputeLightEvaluation: 0\r\n      enableComputeLightVariants: 0\r\n      enableComputeMaterialVariants: 0\r\n      enableFptlForForwardOpaque: 0\r\n      enableBigTilePrepass: 0\r\n      isFptlEnabled: 0\r\n  m_ObsoleteDefaultVolumeProfile: {fileID: 0}\r\n  m_ObsoleteDefaultLookDevProfile: {fileID: 0}\r\n  m_ObsoleteFrameSettingsMovedToDefaultSettings:\r\n    bitDatas:\r\n      data1: 0\r\n      data2: 0\r\n    lodBias: 0\r\n    lodBiasMode: 0\r\n    lodBiasQualityLevel: 0\r\n    maximumLODLevel: 0\r\n    maximumLODLevelMode: 0\r\n    maximumLODLevelQualityLevel: 0\r\n    sssQualityMode: 0\r\n    sssQualityLevel: 0\r\n    sssCustomSampleBudget: 0\r\n    msaaMode: 0\r\n    materialQuality: 0\r\n  m_ObsoleteBakedOrCustomReflectionFrameSettingsMovedToDefaultSettings:\r\n    bitDatas:\r\n      data1: 0\r\n      data2: 0\r\n    lodBias: 0\r\n    lodBiasMode: 0\r\n    lodBiasQualityLevel: 0\r\n    maximumLODLevel: 0\r\n    maximumLODLevelMode: 0\r\n    maximumLODLevelQualityLevel: 0\r\n    sssQualityMode: 0\r\n    sssQualityLevel: 0\r\n    sssCustomSampleBudget: 0\r\n    msaaMode: 0\r\n    materialQuality: 0\r\n  m_ObsoleteRealtimeReflectionFrameSettingsMovedToDefaultSettings:\r\n    bitDatas:\r\n      data1: 0\r\n      data2: 0\r\n    lodBias: 0\r\n    lodBiasMode: 0\r\n    lodBiasQualityLevel: 0\r\n    maximumLODLevel: 0\r\n    maximumLODLevelMode: 0\r\n    maximumLODLevelQualityLevel: 0\r\n    sssQualityMode: 0\r\n    sssQualityLevel: 0\r\n    sssCustomSampleBudget: 0\r\n    msaaMode: 0\r\n    materialQuality: 0\r\n  m_ObsoleteRenderPipelineResources: {fileID: 0}\r\n  m_ObsoleteRenderPipelineRayTracingResources: {fileID: 0}\r\n  m_ObsoleteBeforeTransparentCustomPostProcesses: []\r\n  m_ObsoleteBeforePostProcessCustomPostProcesses: []\r\n  m_ObsoleteAfterPostProcessCustomPostProcesses: []\r\n  m_ObsoleteBeforeTAACustomPostProcesses: []\r\n  m_ObsoleteShaderVariantLogLevel: 0\r\n  m_ObsoleteLensAttenuation: 0\r\n  m_ObsoleteDiffusionProfileSettingsList: []\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/HDRP/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset b/Assets/HDRP/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset
+--- a/Assets/HDRP/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset	(revision 25711ae1195b658773167e4b662049e62d12c3a7)
++++ b/Assets/HDRP/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset	(date 1700573307491)
+@@ -26,6 +26,9 @@
+     supportVolumetrics: 1
+     supportVolumetricClouds: 0
+     supportLightLayers: 0
++    supportWater: 0
++    waterSimulationResolution: 128
++    waterCPUSimulation: 0
+     supportDistortion: 1
+     supportTransparentBackface: 1
+     supportTransparentDepthPrepass: 1
+@@ -36,6 +39,10 @@
+     supportedLitShaderMode: 2
+     planarReflectionResolution:
+       m_Values: 000100000004000000080000
++      m_SchemaId:
++        m_Id: With3Levels
++    cubeReflectionResolution:
++      m_Values: 000100000002000000040000
+       m_SchemaId:
+         m_Id: With3Levels
+     supportDecals: 1
+@@ -44,11 +51,14 @@
+     decalNormalBufferHP: 0
+     msaaSampleCount: 1
+     supportMotionVectors: 1
++    supportDataDrivenLensFlare: 1
+     supportRuntimeAOVAPI: 0
+     supportDitheringCrossFade: 1
+     supportTerrainHole: 0
+-    supportProbeVolume: 0
++    lightProbeSystem: 0
+     probeVolumeMemoryBudget: 1024
++    probeVolumeBlendingMemoryBudget: 128
++    supportProbeVolumeStreaming: 0
+     probeVolumeSHBands: 1
+     supportRayTracing: 0
+     supportedRayTracingMode: 3
+@@ -60,8 +70,13 @@
+       planarReflectionAtlasSize: 1024
+       reflectionProbeCacheSize: 64
+       reflectionCubemapSize: 256
++      maxEnvLightsOnScreen: 64
+       reflectionCacheCompressed: 0
+       reflectionProbeFormat: 74
++      reflectionProbeTexCacheSize: 1073750016
++      reflectionProbeTexLastValidCubeMip: 3
++      reflectionProbeTexLastValidPlanarMip: 0
++      reflectionProbeDecreaseResToFit: 1
+       skyReflectionSize: 256
+       skyLightingOverrideLayerMask:
+         serializedVersion: 2
+@@ -70,9 +85,9 @@
+       maxDirectionalLightsOnScreen: 16
+       maxPunctualLightsOnScreen: 512
+       maxAreaLightsOnScreen: 64
+-      maxEnvLightsOnScreen: 64
++      maxCubeReflectionOnScreen: 48
++      maxPlanarReflectionOnScreen: 16
+       maxDecalsOnScreen: 512
+-      maxPlanarReflectionOnScreen: 16
+       maxLightsPerClusterCell: 8
+       maxLocalVolumetricFogSize: 32
+       maxLocalVolumetricFogOnScreen: 64
+@@ -80,6 +95,7 @@
+       maxShadowRequests: 128
+       directionalShadowsDepthBits: 32
+       shadowFilteringQuality: 1
++      areaShadowFilteringQuality: 0
+       punctualLightShadowAtlas:
+         shadowAtlasResolution: 4096
+         shadowAtlasDepthBits: 32
+@@ -90,6 +106,7 @@
+         useDynamicViewportRescale: 1
+       cachedPunctualLightShadowAtlas: 2048
+       cachedAreaLightShadowAtlas: 1024
++      allowDirectionalMixedCachedShadows: 0
+       shadowResolutionDirectional:
+         m_Values: 00010000000200000004000000080000
+         m_SchemaId:
+@@ -122,8 +139,11 @@
+       useMipBias: 0
+       enableDLSS: 0
+       DLSSPerfQualitySetting: 0
++      DLSSInjectionPoint: 0
+       DLSSUseOptimalSettings: 0
+       DLSSSharpness: 0
++      fsrOverrideSharpness: 0
++      fsrSharpness: 0.92
+       maxPercentage: 100
+       minPercentage: 100
+       dynResType: 1
+@@ -140,6 +160,7 @@
+       singlePass: 1
+       occlusionMesh: 1
+       cameraJitter: 0
++      allowMotionBlur: 0
+     postProcessQualitySettings:
+       NearBlurSampleCount: 030000000500000008000000
+       NearBlurMaxRadius:
+@@ -154,6 +175,7 @@
+       DoFResolution: 040000000200000001000000
+       DoFHighQualityFiltering: 000101
+       DoFPhysicallyBased: 000000
++      LimitManualRangeNearBlur: 000000
+       MotionBlurSampleCount: 04000000080000000c000000
+       BloomRes: 040000000200000002000000
+       BloomHighQualityFiltering: 000101
+@@ -272,11 +294,13 @@
+   diffusionProfileSettings: {fileID: 0}
+   virtualTexturingSettings:
+     streamingCpuCacheSizeInMegaBytes: 256
++    streamingMipPreloadTexturesPerFrame: 0
++    streamingPreloadMipCount: 1
+     streamingGpuCacheSettings:
+     - format: 0
+       sizeInMegaBytes: 128
+   m_UseRenderGraph: 1
+-  m_Version: 21
++  m_Version: 22
+   m_ObsoleteFrameSettings:
+     overrides: 0
+     enableShadow: 0
+Index: Assets/milas/TEventBase.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/milas/TEventBase.cs.meta b/Assets/milas/TEventBase.cs.meta
+new file mode 100644
+--- /dev/null	(date 1700641027658)
++++ b/Assets/milas/TEventBase.cs.meta	(date 1700641027658)
+@@ -0,0 +1,11 @@
++fileFormatVersion: 2
++guid: 82bcf86cf4c057b458043bc6c773f3d0
++MonoImporter:
++  externalObjects: {}
++  serializedVersion: 2
++  defaultReferences: []
++  executionOrder: 0
++  icon: {instanceID: 0}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: .idea/.idea.game-jam/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e38f3207-32d5-4d96-8141-a960bb694fc7\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Graphy_CustomizationScene.unitypackage.meta\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Assets/HDRP/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Assets/HDRP/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MetaFilesCheckinStateConfiguration\" checkMetaFiles=\"true\" />\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2YU8mGjq8cxDNxEhyIWn6aLx63h\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;rider.external.source.directories&quot;: [\r\n      &quot;C:\\\\Users\\\\MEH\\\\AppData\\\\Roaming\\\\JetBrains\\\\Rider2023.2\\\\resharper-host\\\\DecompilerCache&quot;,\r\n      &quot;C:\\\\Users\\\\MEH\\\\AppData\\\\Roaming\\\\JetBrains\\\\Rider2023.2\\\\resharper-host\\\\SourcesCache&quot;,\r\n      &quot;C:\\\\Users\\\\MEH\\\\AppData\\\\Local\\\\Symbols\\\\src&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Attach to Unity Editor.Attach to Unity Editor\">\r\n    <configuration name=\"Start Unity\" type=\"RunUnityExe\" factoryName=\"Unity Executable\">\r\n      <option name=\"EXE_PATH\" value=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Unity.exe\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"-projectPath C:\\Users\\MEH\\RiderProjects\\game-jam -debugCodeOptimization\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"C:\\Users\\MEH\\RiderProjects\\game-jam\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"1\" />\r\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Unit Tests (batch mode)\" type=\"RunUnityExe\" factoryName=\"Unity Executable\">\r\n      <option name=\"EXE_PATH\" value=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Unity.exe\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"-runTests -batchmode -projectPath C:\\Users\\MEH\\RiderProjects\\game-jam -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"C:\\Users\\MEH\\RiderProjects\\game-jam\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"1\" />\r\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Attach to Unity Editor &amp; Play\" type=\"UNITY_DEBUG_RUN_CONFIGURATION\" factoryName=\"UNITY_ATTACH_AND_PLAY\" show_console_on_std_err=\"false\" show_console_on_std_out=\"false\" port=\"50000\" address=\"localhost\">\r\n      <option name=\"allowRunningInParallel\" value=\"false\" />\r\n      <option name=\"listenPortForConnections\" value=\"false\" />\r\n      <option name=\"pid\" />\r\n      <option name=\"projectPathOnTarget\" />\r\n      <option name=\"selectedOptions\">\r\n        <list />\r\n      </option>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Attach to Unity Editor\" type=\"UNITY_DEBUG_RUN_CONFIGURATION\" factoryName=\"Unity Debug\" show_console_on_std_err=\"false\" show_console_on_std_out=\"false\" port=\"50000\" address=\"localhost\">\r\n      <option name=\"allowRunningInParallel\" value=\"false\" />\r\n      <option name=\"listenPortForConnections\" value=\"false\" />\r\n      <option name=\"pid\" />\r\n      <option name=\"projectPathOnTarget\" />\r\n      <option name=\"selectedOptions\">\r\n        <list />\r\n      </option>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e38f3207-32d5-4d96-8141-a960bb694fc7\" name=\"Changes\" comment=\"\" />\r\n      <created>1700568959793</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1700568959793</updated>\r\n      <workItem from=\"1700568961769\" duration=\"295000\" />\r\n      <workItem from=\"1700572716509\" duration=\"565000\" />\r\n      <workItem from=\"1700573892501\" duration=\"3997000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"UnityCheckinConfiguration\" checkUnsavedScenes=\"true\" />\r\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"true\" />\r\n  <component name=\"UnityUnitTestConfiguration\" currentTestLauncher=\"Both\" />\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.game-jam/.idea/workspace.xml b/.idea/.idea.game-jam/.idea/workspace.xml
+--- a/.idea/.idea.game-jam/.idea/workspace.xml	(revision 25711ae1195b658773167e4b662049e62d12c3a7)
++++ b/.idea/.idea.game-jam/.idea/workspace.xml	(date 1700649794496)
+@@ -5,8 +5,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="e38f3207-32d5-4d96-8141-a960bb694fc7" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game-jam/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Graphy_CustomizationScene.unitypackage.meta" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/Assets/HDRP/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRP/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/milas/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/milas/AudioManager.cs" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+@@ -24,22 +26,8 @@
+     </option>
+   </component>
+   <component name="HighlightingSettingsPerFile">
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/MEH/RiderProjects/game-jam/Assets/milas/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Assets/milas/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Assets/milas/TEventBase.cs" root0="FORCE_HIGHLIGHTING" />
+   </component>
+   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+   <component name="ProblemsViewState">
+@@ -53,26 +41,26 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "settings.editor.selected.configurable": "RiderUnityLiveTemplatesSettings",
++    "vue.rearranger.settings.migration": "true"
+   },
+-  &quot;keyToStringList&quot;: {
+-    &quot;rider.external.source.directories&quot;: [
+-      &quot;C:\\Users\\MEH\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+-      &quot;C:\\Users\\MEH\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+-      &quot;C:\\Users\\MEH\\AppData\\Local\\Symbols\\src&quot;
++  "keyToStringList": {
++    "rider.external.source.directories": [
++      "C:\\Users\\MEH\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
++      "C:\\Users\\MEH\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
++      "C:\\Users\\MEH\\AppData\\Local\\Symbols\\src"
+     ]
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe" />
+@@ -122,7 +110,18 @@
+       <workItem from="1700568961769" duration="295000" />
+       <workItem from="1700572716509" duration="565000" />
+       <workItem from="1700573892501" duration="3997000" />
++      <workItem from="1700578042010" duration="730000" />
++      <workItem from="1700640849908" duration="4525000" />
+     </task>
++    <task id="LOCAL-00001" summary="add audio manager">
++      <option name="closed" value="true" />
++      <created>1700578177167</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1700578177167</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -136,7 +135,13 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="CUSTOM_BOOLEAN_PROPERTIES">
++                <map>
++                  <entry key="Show.Git.Branches" value="true" />
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -144,5 +149,11 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
++    <MESSAGE value="add audio manager" />
++    <option name="LAST_COMMIT_MESSAGE" value="add audio manager" />
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
+   </component>
+ </project>
+\ No newline at end of file
+Index: Assets/milas/GameManager.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/milas/GameManager.cs.meta b/Assets/milas/GameManager.cs.meta
+new file mode 100644
+--- /dev/null	(date 1700641736529)
++++ b/Assets/milas/GameManager.cs.meta	(date 1700641736529)
+@@ -0,0 +1,11 @@
++fileFormatVersion: 2
++guid: 539ba499dab312a4889c8c60dcc0d7ce
++MonoImporter:
++  externalObjects: {}
++  serializedVersion: 2
++  defaultReferences: []
++  executionOrder: 0
++  icon: {instanceID: 0}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Assets/milas/TEventBase.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/milas/TEventBase.cs b/Assets/milas/TEventBase.cs
+new file mode 100644
+--- /dev/null	(date 1700641713389)
++++ b/Assets/milas/TEventBase.cs	(date 1700641713389)
+@@ -0,0 +1,16 @@
++using System;
++using System.Collections;
++using System.Collections.Generic;
++using UnityEngine;
++
++// ReSharper disable all
++public class TEventBase : MonoBehaviour
++{ 
++    // ReSharper restore all
++    public string type;
++
++    protected virtual void PerformAction()
++    {
++        Debug.Log($"event triggered: {type}");
++    }
++}
+Index: Assets/milas/GameManager.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/milas/GameManager.cs b/Assets/milas/GameManager.cs
+new file mode 100644
+--- /dev/null	(date 1700642307143)
++++ b/Assets/milas/GameManager.cs	(date 1700642307143)
+@@ -0,0 +1,29 @@
++using System.Collections;
++using System.Collections.Generic;
++using UnityEngine;
++using UnityEngine.EventSystems;
++
++public class GameManager : MonoBehaviour
++{
++    private bool AudioActive = false;
++    
++    // Start is called before the first frame update
++    void Start()
++    {
++        
++    }
++
++    // Update is called once per frame
++    void Update()
++    {
++        
++    }
++}
++
++public interface IGameEventTarget : IEventSystemHandler
++{
++    public void AudioTrigger()
++    {
++        
++    }
++}
+Index: Assets/milas/AudioManager.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\r\nusing System.Collections;\r\nusing System.Collections.Generic;\r\nusing System.Linq;\r\nusing Unity.VisualScripting;\r\nusing UnityEngine;\r\n\r\npublic class AudioManager : MonoBehaviour\r\n{\r\n\r\n    public enum audioFreqencies : int\r\n    {\r\n        K44 = 48100\r\n    }\r\n    public audioFreqencies targetFreq = audioFreqencies.K44;\r\n    public int sampleWindow;\r\n\r\n    private string _device;\r\n    private AudioSource _AudioSource;\r\n    private AudioClip _audioClip;\r\n\r\n    // Start is called before the first frame update\r\n    void Start()\r\n    {\r\n        _device = PlayerPrefs.GetString(\"microphone\");\r\n        _AudioSource = GetComponent<AudioSource>();\r\n\r\n        Microphone.Start(_device, true, 20, AudioSettings.outputSampleRate);\r\n        \r\n    }\r\n\r\n    // Update is called once per frame\r\n    void Update()\r\n    {\r\n        float loudness = GetLoudnessFromAudioClip(_AudioSource.clip, _AudioSource.timeSamples);\r\n        \r\n    }\r\n\r\n    #region deviceMGNT\r\n    \r\n    public string[] getDevices()\r\n    {\r\n        return Microphone.devices;\r\n    }\r\n\r\n    public void setDevice(string device)\r\n    {\r\n        if (Microphone.devices.Contains(device)) _device = device;\r\n    }\r\n\r\n    public string getCurrentDevice()\r\n    {\r\n        return _device;\r\n    }\r\n    #endregion\r\n\r\n    #region audio recording\r\n\r\n\r\n    \r\n    \r\n    private float GetLoudnessFromAudioClip(AudioClip clip, int position)\r\n    {\r\n        int startPosition = position - sampleWindow;\r\n        float[] waveData = new float[sampleWindow];\r\n\r\n        clip.GetData(waveData, startPosition);\r\n\r\n        float loudness = 0;\r\n\r\n        for (int i = 0; i < sampleWindow; i++)\r\n        {\r\n            loudness += Mathf.Abs(waveData[i]);\r\n        }\r\n\r\n        return loudness / sampleWindow;\r\n    }\r\n    #endregion\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/milas/AudioManager.cs b/Assets/milas/AudioManager.cs
+--- a/Assets/milas/AudioManager.cs	(revision 25711ae1195b658773167e4b662049e62d12c3a7)
++++ b/Assets/milas/AudioManager.cs	(date 1700644869817)
+@@ -4,51 +4,56 @@
+ using System.Linq;
+ using Unity.VisualScripting;
+ using UnityEngine;
++using UnityEngine.EventSystems;
+ 
+ public class AudioManager : MonoBehaviour
+ {
+-
+-    public enum audioFreqencies : int
++    public enum AudioFreqencies : int
+     {
+         K44 = 48100
+     }
+-    public audioFreqencies targetFreq = audioFreqencies.K44;
++
++    
++    public GameObject gameManager;
++    public AudioFreqencies targetFreq = AudioFreqencies.K44;
++    [SerializeField, Range(0, 1000)]
+     public int sampleWindow;
+-
++    
+     private string _device;
+-    private AudioSource _AudioSource;
++    private AudioSource _audioSource;
+     private AudioClip _audioClip;
++    
+ 
+     // Start is called before the first frame update
+     void Start()
+     {
+         _device = PlayerPrefs.GetString("microphone");
+-        _AudioSource = GetComponent<AudioSource>();
+-
++        _audioSource = GetComponent<AudioSource>();
+         Microphone.Start(_device, true, 20, AudioSettings.outputSampleRate);
+-        
++
++        if (gameManager.GetComponent<GameManager>()) throw new Exception("invalid GameManager");
+     }
+ 
+     // Update is called once per frame
+     void Update()
+     {
+-        float loudness = GetLoudnessFromAudioClip(_AudioSource.clip, _AudioSource.timeSamples);
++        float loudness = GetLoudnessFromAudioClip(_audioSource.clip, _audioSource.timeSamples);
+         
+     }
+ 
+     #region deviceMGNT
+     
+-    public string[] getDevices()
++    public string[] GetDevices()
+     {
+         return Microphone.devices;
+     }
+ 
+-    public void setDevice(string device)
++    public void SetDevice(string device)
+     {
+         if (Microphone.devices.Contains(device)) _device = device;
+     }
+ 
+-    public string getCurrentDevice()
++    public string GetCurrentDevice()
+     {
+         return _device;
+     }
+Index: Assets/milas/SoundEvent.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/milas/SoundEvent.cs b/Assets/milas/SoundEvent.cs
+new file mode 100644
+--- /dev/null	(date 1700641722863)
++++ b/Assets/milas/SoundEvent.cs	(date 1700641722863)
+@@ -0,0 +1,26 @@
++using System.Collections;
++using System.Collections.Generic;
++using UnityEngine;
++
++public class SoundEvent : TEventBase
++{
++    
++    
++    // Start is called before the first frame update
++    void Start()
++    {
++        type = "hej";
++    }
++
++    // Update is called once per frame
++    void Update()
++    {
++        
++    }
++
++    protected override void PerformAction()
++    {
++        
++        base.PerformAction();
++    }
++}
